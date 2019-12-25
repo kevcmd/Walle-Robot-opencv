@@ -5,7 +5,7 @@ This project is an expirement using opencv for machine vision. This is not a com
 
 Hardware in this project includes:
 
-->Raspberry Pi 3B<br />
+->Raspberry Pi 3B (using pi camera)<br />
 ->L298N Motor Driver Board<br />
 ->vl53l0x Distance Sensor<br />
 ->GY-85 IMU<br />
