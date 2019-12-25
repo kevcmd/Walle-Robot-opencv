@@ -1,0 +1,3 @@
+/home/pi/walle07/CMakeFiles/rebuild_cache.dir
+/home/pi/walle07/CMakeFiles/walle.dir
+/home/pi/walle07/CMakeFiles/edit_cache.dir
