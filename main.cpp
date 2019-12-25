@@ -14,7 +14,7 @@ int main(int argc, const char **argv)
 	{
 		walle.update();
 
-		#ifdef SHOW_CV_WINDOW //Used for debug/test
+		#ifdef SHOW_CV_WINDOW //Used for debug
 		  if(cv::waitKey(30) >= 0) break;
 		#endif
 	}
