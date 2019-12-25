@@ -103,38 +103,7 @@ int Robot::Explore()
     }
     return IDLE;
 }
-/*
-void Robot::doPath()
-{
-	//int dis = uSensor.readDistance();
-	//cDistance.push_back(uSensor.readDistance());
-	//if(timer.getTimer(HEAD_CENTER_TIME))
-    //{
-    std::this_thread::sleep_for (std::chrono::milliseconds(20));
-		cDistance.push_back(uSensor.readDistance());
-        int d = accumulate(cDistance.begin(), cDistance.end(), 0)/ cDistance.size();
 
-        if(d > MIN_DIST_THRESH)
-        {
-            return true;
-            #ifdef ROBOT_DEBUG
-            std::cout << d/10 << "Path is good" << ".\n";
-            #endif
-        }
-        else if(d <= STOPPING_DIST)
-        {
-            uMotor.stopTracks();
-            headCentered = false;
-            timer.resetTimer(false);
-            #ifdef ROBOT_DEBUG
-            std::cout << d << "Stopped" << ".\n";
-            #endif
-        }
-    //}
-    if(cDistance.size() >= DIST_BUFFER)
-		cDistance.clear();
-}
-*/
 bool Robot::checkPath()
 {
     if(headCentered)
